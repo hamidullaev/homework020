@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+}
+.card_con{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    margin: auto;
+}
+.cards{
+    width: 30%;
+    height: 40vh;
+    margin-bottom: 160px;
+    background-color:aqua;
+}
+.image{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* planshet uchun */
+@media  screen and (max-width:990px){
+     .title{
+         color: blue;
+     }
+     .cards{
+         width: 43%;
+         flex-wrap: wrap;
+         margin-bottom: 60px;
+         margin-right: 40px;
+     }
+     .title2{
+        margin-left: 10px;
+        color: black;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .image{
+        width: 200px;
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .text{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+}
+
+
+/* mobile uchun */
+@media screen and (max-width:390px){
+      .title{
+          color: red;
+          font-size: 25px;
+      }
+      .title2{
+          margin-left: 10px;
+          color: black;
+          margin-top: 10px;
+          font-size: 25px;
+      }
+      .image{
+          width: 200px;
+          height: 100px;
+          margin-left: 20px;
+          margin-top: 20px;
+      }
+      .text{
+          margin-top: 10px;
+          margin-left: 10px;
+      }
+      .card_con{
+          width: 95%;
+          height: 100vh;
+          
+      }
+      .cards{
+          width: 100%;
+          height: 200px;
+          flex-wrap: wrap;
+          border-radius: 10px;
+          margin-bottom: 10px;
+      }
+    
+}
